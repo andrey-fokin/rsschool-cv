@@ -35,6 +35,12 @@ so I was able to do this task
 --------------------------
 
 ## Experience: 
-    was in millitary 
+    don't have yet 
 
 --------------------------
+## Code example: 
+'''
+    function multiply(a, b){
+    return a * b
+    }
+'''
