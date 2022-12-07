@@ -39,8 +39,8 @@ so I was able to do this task
 
 --------------------------
 ## Code example: 
-'''
+```
     function multiply(a, b){
     return a * b
     }
-'''
+```
