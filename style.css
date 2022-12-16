@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    color: black
+}
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* navigation*/
+
+
+
+.nav {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    display: block;
+    transition: color .2s linear;
+}
+
+.nav__link:hover {
+    color: darkorange;
+}
+
+.header {
+    padding: 10px 0;
+
+}
+
+
+
+/* intro */
+
+.container {
+    padding: 0 20px;
+
+}
+
+.intro {
+    display: flex;
+    justify-content: end;
+
+}
+
+.intro_title {
+    display: flex;
+    justify-content: end;
+    margin: 0px 15px 20px 0px;
+    font-size: 30px;
+}
+
+
+.subtitle_intro {
+    display: flex;
+    justify-content: end;
+    margin: 0px 15px 20px 0px;
+}
+
+.intro-img {
+    width: 25%;
+    border: 3px solid #ff8c00;
+    border-radius: 10px;
+}
+
+/* section general information */
+
+.general-information {}
+
+
