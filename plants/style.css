@@ -1,10 +1,9 @@
 .html {
     scroll-behavior: smooth;
-    min-width: 1440px;
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
+}
+* {
+    margin: 0%;
+    padding: 0%;
 }
 
 .intro h1 span {
@@ -12,11 +11,14 @@
 
 }
 
+
 /* header */
 
 .container {
     display: flex;
     justify-content: space-between;
+    background-color: #EDF2EC;
+    padding: 50px 100px;
 
 }
 
@@ -42,10 +44,26 @@
 
 /* intro */
 
+.welcome {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDF2EC;
+}
+
+.welcome_logo {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 100px;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding: 50px 100px;
+    
 }
 
 .button {
@@ -61,10 +79,79 @@
 
 /*about*/
 
+.suptitle {
+    padding: 50px 100px;
+}
+
 .suptitle h2 {
     color: #499A18
 }
 
 .suptitle h2 span {
+    color:#E06733
+}
+
+
+.About {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_logo {
+    padding: 50px 100px;
+}
+
+/*Service*/
+
+.Service {
+    background-color: #EDF2EC;
+}
+.service_inf {
+    display: flex;
+    padding: 50px 100px;
+
+}
+
+.service_title {
+    margin-right: 300px;
+    
+}
+
+.service_buttons {
+    display: flex;
+}
+
+.button_serv {
+    color:#E06733;
+    text-decoration: none;
+    border-style: solid;
+    margin: 38px;
+    padding: 10px 38px;
+    border-radius: 5px; 
+    border-width: 1px;
+}
+
+.service_title h2 span {
+    color: #499A18;
+    font-size: 35px;
+    
+}
+
+.services {
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.service_item {
+    display: grid;
+
+}
+
+.service_item h3 {
     color:#E06733
 }
