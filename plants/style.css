@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.intro h1 span {
+  color: #499A18;
+
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* .container {
+  width: 1440px;
+  padding: 0 110px;
+  margin: 0 auto;
+  box-sizing: border-box;
+} */
+
+
+/* header */
+
+.header {
+  background-color: #EDF2EC;
+  font-family: 'Inika', serif;
+  padding: 57px 0;
+}
+
+.header__title {
+  font-size: 16px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 42px;
+
+}
+
+.nav__link {
+  color: #010201;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+  color: #E06733;
+}
+
+/* intro */
+
+.welcome {
+  background-color: #EDF2EC;
+  font-family: 'Inter', sans-serif;
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.intro_title {
+  Font-style: Bold;
+  Font-size: 45px;
+}
+
+.intro_information {
+  width: 549px;
+}
+
+.intro_text {
+  Font-style: Regular;
+  Font-size: 20px;
+  margin-top: 42px;
+  margin-bottom: 48px;
+}
+
+
+.intro {
+  display: flex;
+  justify-content: end;
+  /* padding: 50px 100px; */
+  background-image: url(/rsschool-cv/plants/img/leafs-logo.png);
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.intro-button {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #010201;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #E06733;
+  padding: 14px 27px;
+
+}
+
+
+/*about*/
+
+.about {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-image: url(/rsschool-cv/plants/img/houseplant.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  /* padding: 161px 0 155px 0; */
+  padding-top: 161px;
+  padding-bottom: 155px;
+}
+
+.about_information{
+  font-family: 'Inika', serif;
+  width: 605px;
+}
+
+.about_title {
+  color:#499A18;
+  font-size: 40px;
+  width: 463px;
+}
+
+.about_title span {
+  color:#E06733;
+}
+
+
+.about_text {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+
+
+/*Service*/
+
+.service {
+  background-color: #EDF2EC;
+  padding-top: 40px;
+  padding-bottom: 121px;
+}
+
+.service_inf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.service_title {
+  font-family: 'Inika', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #499A18;
+  width: 306px;
+  margin-right: 142px;
+
+
+}
+
+.service_buttons {
+  font-family: 'Inika', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+
+}
+
+.button_serv {
+  color: #E06733;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  width: 161px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  
+  
+}
+
+.service_title h2 span {
+  color: #499A18;
+  font-size: 35px;
+
+}
+
+
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  gap: 55px 116px;
+  margin-top: 90px;
+}
+
+
+.service_item {
+  text-align: center;
+}
+
+.service_item h3 {
+  font-family: 'Inter', serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #E06733
+}
+
+.service_item span {
+  font-family: 'Inter', serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+/*Prices*/
+
+.prices {
+  padding-top: 40px;
+  padding-bottom: 115px;
+}
+
+.prices_wrapper {
+  display: grid;
+  grid-template-columns: 332px 452px;
+  grid-template-areas:
+    "prices_title best_gardeners"
+    "prices_offer contact_button";
+  font-family: 'Inter', serif;
+  justify-content: space-between;
+  background-image: url(/rsschool-cv/plants/img/leafs2.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.prices_title {
+  font-family: 'Inter', serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  grid-area: prices_title;
+}
+
+.prices_offer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+  padding: 34px 41px;
+  grid-area: prices_offer;
+}
+
+.prices_item {
+  background: #EDF2EC;
+  border-radius: 20px;
+  padding: 16px 110px 16px 40px;
+}
+
+.prices_item h3{
+  font-family: 'Inter', serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.best_gardeners {
+  font-family: 'Inter', serif;
+  font-size: 40px;
+  font-weight: 700;
+  grid-area: best_gardeners;
+}
+
+.best_gardeners span {
+  color:#499A18;
+}
+
+.contact_button {
+  color:#E06733;
+  font-family: 'Inika', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  padding: 12px 25px;
+  text-decoration: none;
+  grid-area: contact_button;
+  width: 162px;
+  height: 50px;
+  margin-top: 38px;
+  margin-left: auto ;
+}
+
+
+
+/*Contact us*/
+
+.contacts {
+  background-color: #EDF2EC;
+}
+
+.contact_information {
+  background-image: url(/rsschool-cv/plants/img/contact-logo.png);
+  background-repeat: no-repeat;
+  height: 550px;
+  background-position:left bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_title {
+  font-family: 'Inika', Serif;
+  font-size: 40px;
+  color: #499A18;
+  width: 195px;
+  height: 51px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+/* .contact_btns {
+  font-family: 'Inter', serif;
+  font-size: 20px;
+  background-color: #d6e7d2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-self: flex-end;
+} */
+
+.contact_select {
+  width: 450px;
+  height: 50px;
+  font-family: 'Inter', serif;
+  font-size: 20px;
+  background-color: #d6e7d2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-style: none;
+  align-self: flex-end;
+  margin-top: 37px;
+}
+
+
+
+/*footer*/
+
+
+.footer_info {
+  display: flex;
+  justify-content:space-between;
+  padding: 40px 0 40px 0;
+  font-family: 'Inter', serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btn_git {
+  text-decoration: none;
+  color: #010201;
+}
+
+
+.school_btn {
+  text-decoration: none;
+  color: #010201;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
